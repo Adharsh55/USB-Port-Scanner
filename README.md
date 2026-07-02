@@ -1,4 +1,4 @@
-# USB Device Trust Manager ⭐⭐⭐⭐⭐
+# USB Device Trust Manager 
 
 A command-line security utility designed for Windows that monitors, catalogs, and manages trust permissions for USB devices plugged into your system. Built to run natively in Windows terminals or from Windows Subsystem for Linux (WSL) as a standard command-line command. It provides a Metasploit-like interactive terminal console interface.
 
