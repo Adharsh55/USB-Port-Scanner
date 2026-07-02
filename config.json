@@ -1,0 +1,9 @@
+{
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_user": "abcd@gmailcom",
+    "smtp_password": "1234567",
+    "recipient_email": "demo@gmail.com",
+    "enable_email_alerts": true,
+    "enable_blocking": false
+}
