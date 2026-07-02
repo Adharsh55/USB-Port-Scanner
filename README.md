@@ -34,25 +34,6 @@ To run the manager as a background log stream to stdout without the interactive 
 python usb_trust_manager.py --daemon
 ```
 
----
-
-## 💻 Running inside WSL
-
-This tool is specifically designed to run seamlessly from a Linux terminal inside WSL. When launched in WSL, it automatically detects the environment and forwards commands directly to the host's Windows WMI engine by calling the `powershell.exe` executable inside Windows.
-
-To make it callable from anywhere in your WSL command line, you can create a simple alias or shell script:
-
-1. Add the following alias to your `~/.bashrc` or `~/.zshrc`:
-   ```bash
-   alias usb-trust="python3 /mnt/d/ssd\ port/usb_trust_manager.py"
-   ```
-2. Reload your shell: `source ~/.bashrc`.
-3. Launch it using: `usb-trust`.
-
-*Note: Make sure your WSL terminal is running within a Windows Terminal session launched as **Administrator** if you wish to enable driver blocking.*
-
----
-
 ## ⚙️ Interactive Commands Reference
 
 Once the interactive shell starts (`usb-trust >`), the following commands are available:
@@ -86,3 +67,5 @@ To configure email alerts on unknown device insertion:
 2. Enter your SMTP details (e.g. Server: `smtp.gmail.com`, Port: `587`, SMTP User: `your-email@gmail.com`).
 3. Use a secure App Password generated from your email account (like Gmail App Passwords) for authentication.
 4. Save settings and send a verification test email.
+   NOTE: For The SMTP Password use your google app password feature (Which enables after acttivating the 2 step verification of the smtp user mail),
+         then after getting the password make sure to enter in it and keep secured.
