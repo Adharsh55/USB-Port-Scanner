@@ -67,5 +67,7 @@ To configure email alerts on unknown device insertion:
 2. Enter your SMTP details (e.g. Server: `smtp.gmail.com`, Port: `587`, SMTP User: `your-email@gmail.com`).
 3. Use a secure App Password generated from your email account (like Gmail App Passwords) for authentication.
 4. Save settings and send a verification test email.
+
+   
    NOTE: For The SMTP Password use your google app password feature (Which enables after acttivating the 2 step verification of the smtp user mail),
          then after getting the password make sure to enter in it and keep secured.
